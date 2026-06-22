@@ -1,4 +1,5 @@
-https://avatars.githubusercontent.com/u/262023557?s=400&u=09f46d3790285f2a09069c047385bcd896ade370&v=4
+<img src="https://avatars.githubusercontent.com/u/262023557?s=400&u=09f46d3790285f2a09069c047385bcd896ade370&v=4 alt="Foto de perfil de yo" />
+
 YAMIL VELARDE 
 
 Información general
