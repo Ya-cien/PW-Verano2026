@@ -1,73 +1,102 @@
-  body {
-      font-family: Arial, Helvetica, sans-serif;
-      display: flex;
-      background: rgb(236, 233, 233);
+    body {
+   
+    background:#f0f2f5;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    gap:60px;
+    padding:20px;
+    font-family:Arial, Helvetica, sans-serif;
   }
 
+
   h1 {
-      color: #1877f2; /*#0065e0 */
+    color: #1877f2;
+    font-size: 60px;
+    margin-bottom: 10px;
+    /*#0065e0 */
   }
 
   .azul {
-      border-radius: 5px;
-      background: #0866ff;
-      color: white;
-      text-align: center;
-      border: 100px;
-      width: 300px;
-      height: 30px;
+    border-radius: 5px;
+    background: #0866ff;
+    color: white;
+    text-align: center;
+    border: 100px;
+    height: 45px;
 
   }
 
   .verde {
-      border-radius: 5px;
-      background: #42b72a;
-      color: white;
-      border: 100px;
-      width: 150px;
-      height: 30px;
-      margin: auto;
+    border-radius: 5px;
+    background: #42b72a;
+    color: white;
+    border: 100px;
+    width: 200px;
+    height: 45px;
+    margin: 20px auto;
 
   }
 
- 
-  #Info{
+
+  #Info {
     margin: auto;
     display: block;
     text-align: left;
-    margin: 150px;
   }
 
-  fieldset{
+  fieldset {
     border-collapse: collapse;
-    border-radius: 6px;
-    background-color: white;
-    border: 2px;
-  }
-  #Registro{
-    margin: auto;
-    display: inline block;
-    text-align: center;
-    margin: 150px;
+    border-radius: 10px;
+    background: white;
+    border: none;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0,0,0,.2);
   }
 
-  a{
-    font-size: x-small; 
+  #Registro {
+    margin: auto;
+    text-align: center;
+    width: 400px;
+  }
+
+  a {
+    font-size: 14px;
     color: #0866ff;
     text-decoration: none;
   }
 
-  .textoP{
+  .textoP {
     font-size: small;
   }
 
-  input{
-    width: 80%;
-    padding: 15%;
-    margin: 5px;
-    padding: 5px;
-    border: 5px;
+  input {
+    width: 100%;
+    padding: 15px;
+    margin: 8px 0;
+    border: 1px solid #dddef2;
+    border-radius: 6px;
+    font-size: 17px;
+    box-sizing: border-box;
   }
 
-  
-  
+@media (max-width:900px){
+    body{
+        flex-direction: column;
+        gap: 40px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    #Info{
+        width: 100%;
+        max-width: 450px;
+        text-align: center;
+    }
+
+    #Registro{
+        width: 100%;
+        max-width: 400px;
+    }
+}
