@@ -1,0 +1,231 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*Primera seccion*/
+
+#botonInicio {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 70px;
+    margin-right: 20px;
+}
+
+#botonInicioS {
+    background: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+    width: 130px;
+    font-size: 12px;
+    font-weight: bold;
+    height: 30px;
+
+}
+
+header {
+    /* Sintaxis: color url("ruta") repetición posición / tamaño */
+    background: #333 url('assets/main-hero-background.png') no-repeat center / cover;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#Seccion2Medio{
+        background: #333 url('assets/starwars.png') no-repeat center / cover;
+        width: 500px;
+        height: 500px;
+        display: flex;
+        align-items: center;
+
+}
+
+h1, h2,
+a {
+    color: white;
+}
+
+a {
+    text-decoration: underline;
+    font-size: 10px;
+}
+
+p {
+    color: rgb(200, 196, 196);
+    font-size: 10px;
+    margin: 0px;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+
+
+#botonCorreo {
+    background: rgb(61, 61, 61);
+    border-radius: 3px;
+    border: 0px;
+    color: white;
+    text-align: left;
+    font-size: 12px;
+    width: 220px;
+    height: 23px;
+    margin-bottom: 2%;
+
+}
+
+#botonSuscribirse {
+    background: aqua;
+    color: black;
+    border-radius: 3px;
+    border: 0px;
+    font-size: 12px;
+    height: 23px;
+    text-align: center;
+}
+
+#icons {
+    width: 500px;
+}
+
+#botonDisney {
+    height: 50px;
+    margin: 0px;
+}
+
+#divIzqHead {
+    text-align: left;
+    width: 480px;
+    height: 300px;
+    margin-top: 50px;
+    padding: 2%;
+}
+
+/*Segunda seccion*/
+#Seccion2 {
+    background: black;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+#Seccion2Arriba {
+    margin-top: 30px;
+    text-align: left;
+    width: 500px;
+
+}
+
+/*Seccion3*/
+#Seccion3 {
+    display: flex;
+    height: 300px;
+    background: black;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#ContenidoS3 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+
+/*Seccion4*/
+#Seccion4 {
+    background: rgb(3, 7, 18);
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+
+#ContenidoS4 {
+    margin-top: 30px;
+
+}
+
+table {
+    color: white;
+    border-collapse: collapse;
+    width: 500px;
+    height: 160px;
+}
+
+th {
+    font-size: 10px;
+}
+
+td {
+    font-size: 8px;
+}
+
+#tdB {
+    background-color: black;
+}
+
+#thB{
+        background-color: rgb(53, 53, 238);
+}
+
+#thG{
+    background: rgb(68, 67, 67);
+}
+
+/*Seccion5*/
+#Seccion5 {
+    background: rgb(3, 7, 18);
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#ArribaS5{
+    text-align: left;
+    margin: 50px;
+}   
+
+#CentroS5{
+    display: grid(2);
+    align-items: center;
+    gap: 10px;
+    width: 450px;
+}
+
+/*Seccion6*/
+#Seccion6 {
+    background: rgb(3, 7, 18);
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#ContenidoS6{
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+#Seccion7{
+    background: rgb(3, 7, 18);
+    text-align: center;
+}
