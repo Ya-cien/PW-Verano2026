@@ -92,6 +92,10 @@ p {
     color: rgb(30, 156, 224);
 }
 
+a{
+    cursor: pointer;
+}
+
 hr {
     display: flex;
     border: none;
