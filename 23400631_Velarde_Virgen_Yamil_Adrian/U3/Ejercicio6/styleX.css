@@ -2,29 +2,27 @@
     margin: auto;
     display: block;
     text-align: left;
-    height: 100%;
 }
 
 #DivDer {
     margin: auto;
-    text-align:left;
+    text-align: left;
     width: 250px;
     display: flex;
     flex-direction: column;
-    gap: 10px   ;
-    height: 100%;
+    gap: 10px;
 }
 
-#logos{
+#logos {
     width: 16px;
 }
 
-#btnRegistros{
+#btnRegistros {
     color: black;
     background: white;
 }
 
-.boton{
+.boton {
     border-radius: 20px;
     width: 220px;
     height: 30px;
@@ -37,55 +35,64 @@
     font-size: 10px
 }
 
-#botonCrearCuenta{
+#botonCrearCuenta {
     color: white;
-    background:rgb(30, 156, 224);
+    background: rgb(30, 156, 224);
     font-weight: bold;
 }
 
-h1{
+h1 {
     color: white;
     margin: 7px;
 }
 
 
-h4{
+h4 {
     color: white;
     margin: 1px;
 }
 
-h6{
+h6 {
     color: white;
 }
 
 
-body{
+body {
     display: flex;
+    flex-direction: column;
     background: rgb(19, 17, 17);
     font-family: "Segoe UI", Arial, sans-serif;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    height: 90%;
-    padding: 20px;
-    margin-top: 100px;
-    margin-bottom: auto;
-    
-
+    margin: 0;
+    min-height: 100vh;
 }
 
-p{
-    color: white;
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+}
+
+
+p {
+    color: gray;
     font-size: 8px;
 }
 
-a{
+#main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    gap: 120px;
+}
+
+#enlaceDesc {
     font-family: 8px;
     text-decoration: none;
     color: rgb(30, 156, 224);
 }
 
-hr{
+hr {
     display: flex;
     border: none;
     height: 1px;
@@ -93,30 +100,40 @@ hr{
     width: 150px;
 }
 
-#o{
+#o {
     color: white;
     display: flex;
 }
 
-#botonInicioS{
-    border:1px solid white;
+#botonInicioS {
+    border: 1px solid white;
     color: rgb(30, 156, 224);
     background: rgb(19, 17, 17);
     margin: 1px;
 }
-h6{
+
+h6 {
     margin: 1px;
 }
 
-@media (max-width:900px){
-    body{
+@media (max-width:900px) {
+    body {
         flex-direction: column;
         gap: 40px;
         padding: 20px;
         text-align: center;
     }
 
-    #DivIzq{
+    #main {
+        flex-direction: column;
+        gap: 40px;
+        padding: 20px;
+        text-align: center;
+
+    }
+
+
+    #DivIzq {
         width: 100%;
         max-width: 420px;
         text-align: center;
@@ -124,7 +141,7 @@ h6{
         height: 270px;
     }
 
-    #DivDer{
+    #DivDer {
         text-align: center;
         width: 100%;
         max-width: 250px;
@@ -132,8 +149,6 @@ h6{
 
     }
 
-    footer{
-        height: 10%;
-    }
+
 
 }
