@@ -70,6 +70,16 @@ h1 {
 
 
 
+.boton:hover{
+    cursor: pointer;
+}
+
+a:hover{
+    cursor: pointer;
+}
+
+
+
 #botonCorreo {
     background: rgb(61, 61, 61);
     border-radius: 3px;
