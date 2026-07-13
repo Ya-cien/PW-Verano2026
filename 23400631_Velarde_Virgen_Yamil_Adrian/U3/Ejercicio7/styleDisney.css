@@ -38,16 +38,17 @@ header {
     flex-direction: column;
 }
 
-#Seccion2Medio{
-        background: #333 url('assets/starwars.png') no-repeat center / cover;
-        width: 500px;
-        height: 500px;
-        display: flex;
-        align-items: center;
+#Seccion2Medio {
+    background: #333 url('assets/starwars.png') no-repeat center / cover;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    align-items: center;
 
 }
 
-h1, h2,
+h1,
+h2,
 a {
     color: white;
 }
@@ -135,12 +136,22 @@ h1 {
 
 }
 
+#ImagenS3 {
+    text-align: center;
+    width: 100px;
+    height: 50px;
+
+}
+
 #ContenidoS3 {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
 
 }
+
+
+
 
 
 /*Seccion4*/
@@ -177,11 +188,11 @@ td {
     background-color: black;
 }
 
-#thB{
-        background-color: rgb(53, 53, 238);
+#thB {
+    background-color: rgb(53, 53, 238);
 }
 
-#thG{
+#thG {
     background: rgb(68, 67, 67);
 }
 
@@ -196,16 +207,43 @@ td {
     flex-direction: column;
 }
 
-#ArribaS5{
+#ArribaS5 {
     text-align: left;
     margin: 50px;
-}   
+}
 
-#CentroS5{
-    display: grid(2);
+#CentroS5 {
+    display: grid;
+    grid-template-areas: 
+        "a b c d"
+        ". e f .";
     align-items: center;
     gap: 10px;
     width: 450px;
+}
+
+.i1 {
+    grid-area: a;
+}
+
+.i2 {
+    grid-area: b;
+}
+
+.i3 {
+    grid-area: c;
+}
+
+.i4 {
+    grid-area: d;
+}
+
+.i5 {
+    grid-area: e;
+}
+
+.i6 {
+    grid-area: f;
 }
 
 /*Seccion6*/
@@ -219,13 +257,57 @@ td {
     flex-direction: column;
 }
 
-#ContenidoS6{
+#ContenidoS6 {
     margin-top: 50px;
     margin-bottom: 50px;
 
 }
 
-#Seccion7{
+#Seccion7 {
     background: rgb(3, 7, 18);
     text-align: center;
+}
+
+
+@media (max-width:700px) {
+
+    #Seccion3 {
+        display: flex;
+        height: 1200px;
+        background: black;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    #ContenidoS3 {
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+    }
+
+    #TextoS3 {
+        gap: 10px;
+        flex-direction: column;
+    }
+
+    #ImagenS3 {
+        text-align: center;
+        width: 100px;
+        height: 150px;
+
+    }
+
+    #CentroS5 {
+        display: flex;
+        flex-direction: column;
+    
+    
+    }
+
+
+    #ArribaS5 {
+        margin: 50px;
+    }
 }
