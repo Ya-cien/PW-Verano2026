@@ -57,7 +57,7 @@ function ejercicio4() {
                 console.log("El número", n, "es par")
             } else {
                 console.log("El número", n, "es impar")
-            } Ï
+            } 
         } else
             console.log("El número no es válido")
     }
