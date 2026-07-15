@@ -47,6 +47,8 @@ ejercicio3();
 
 /*Ejercicio 4*/
 function ejercicio4() {
+    var par = 0;
+    var impar = 0;
     for (var i = 0; i < 10; i++) {
         do {
             var n = Number(prompt("Dame un numero entre 0-100"));
@@ -55,12 +57,16 @@ function ejercicio4() {
         if (n >= 0 && n <= 100) {
             if (n % 2 == 0) {
                 console.log("El número", n, "es par")
+                par ++;
             } else {
                 console.log("El número", n, "es impar")
+                impar ++;
             } 
         } else
             console.log("El número no es válido")
     }
+    console.log("C. de Pares:", par)
+    console.log("C. de Impares:", par)
 }
 
 ejercicio4();
