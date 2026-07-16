@@ -2,15 +2,16 @@
 /*Ejercicio 1*/
 function potencia(base, exponente) {
 
-    var resultado = 0
-    for (var i = 0; i <= exponente; i++) {
-        resultado += base;
+    var resultado = 1
+    for (var i = 0; i < exponente; i++) {
+        resultado *= base;
     }
     console.log(base, "elevado a", exponente, "es", resultado)
 
 }
 
-potencia(2, 3);
+potencia(5, 5);
+
 /*Ejercicio 2*/
 function cajero() {
     var saldo = 5000;
@@ -63,19 +64,20 @@ dados();
 /*Ejercicio 4*/
 function adivinar() {
     var n1 = Math.floor(Math.random() * 100) + 1;
-    console.log(n1);
-
     for (var i = 0; i < 7; i++) {
         var intento = Number(prompt("Adivina el número"));
-        if (intento < n1) {
+        if (i == 6) {
+            console.log("Se acabaron los turnos")
+        } else if (intento < n1) {
             console.log("Intenta mas arriba")
         } else if (intento > n1) {
             console.log("Intenta mas abajo")
-        } else {
+        } else if (intento == n1) {
             console.log("Lo encontraste")
             break;
         }
     }
+    console.log("El número era:", n1)
 
 }
 adivinar();
