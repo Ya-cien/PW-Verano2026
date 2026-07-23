@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:3000/peliculas";
+const API_URL = "http://https://crud-front-rho.vercel.app/peliculas";
 
 const formulario = document.getElementById("formulario");
 const id = document.getElementById("id");
